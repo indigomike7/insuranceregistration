@@ -1,0 +1,14 @@
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+    CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <!-- Navigation info -->
+    <ul id="nav-info" class="clearfix">
+        <li><a href="Default.aspx"><i class="fa fa-home"></i></a></li>
+        <li class="active"><a href="Default.aspx">Dashboard</a></li>
+    </ul>
+
+
+</asp:Content>
